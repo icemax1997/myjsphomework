@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://java.sun.com/xml/ns/javaee" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+version="3.0">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteStudentInfo</servlet-name>
+    <servlet-class>Servlet_Student.DeleteStudentInfo</servlet-class>
+  </servlet>
+      <welcome-file-list>
+        <welcome-file>welcome_index.html</welcome-file>
+    </welcome-file-list>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditStudentInfo</servlet-name>
+    <servlet-class>Servlet_Student.EditStudentInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddStudentInfo</servlet-name>
+    <servlet-class>Servlet_Student.AddStudentInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryStudentInfo</servlet-name>
+    <servlet-class>Servlet_Student.QueryStudentInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>test</servlet-name>
+    <servlet-class>Servlet_Mark.test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryMark</servlet-name>
+    <servlet-class>Servlet_Mark.QueryMark</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditMark</servlet-name>
+    <servlet-class>Servlet_Mark.EditMark</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMark</servlet-name>
+    <servlet-class>Servlet_Mark.DeleteMark</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PatchDeleteStudentInfo</servlet-name>
+    <servlet-class>Servlet_Student.PatchDeleteStudentInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MatchingSQL</servlet-name>
+    <servlet-class>Servlet_Student.MatchingSQL</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>Servlet_Student.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>demo</servlet-name>
+    <servlet-class>Servlet_Student.demo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Userpowerchange</servlet-name>
+    <servlet-class>Servlet_Student.Userpowerchange</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Exit</servlet-name>
+    <servlet-class>Servlet_Student.Exit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditUser</servlet-name>
+    <servlet-class>Servlet_Student.EditUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownLoadServlet</servlet-name>
+    <servlet-class>Servlet.DownLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListFileServlet</servlet-name>
+    <servlet-class>Servlet.ListFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadHandleServlet</servlet-name>
+    <servlet-class>Servlet.UploadHandleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MatchingSQL2</servlet-name>
+    <servlet-class>Servlet_Student.MatchingSQL2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>helloBar</servlet-name>
+    <servlet-class>com.helloBar.helloBar</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditIndex</servlet-name>
+    <servlet-class>Servlet_index.EditIndex</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DeleteStudentInfo</servlet-name>
+    <url-pattern>/servlet/DeleteStudentInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditStudentInfo</servlet-name>
+    <url-pattern>/servlet/EditStudentInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStudentInfo</servlet-name>
+    <url-pattern>/servlet/AddStudentInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryStudentInfo</servlet-name>
+    <url-pattern>/QueryStudentInfo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/servlet/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryMark</servlet-name>
+    <url-pattern>/servlet/QueryMark</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditMark</servlet-name>
+    <url-pattern>/servlet/EditMark</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMark</servlet-name>
+    <url-pattern>/servlet/DeleteMark</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PatchDeleteStudentInfo</servlet-name>
+    <url-pattern>/servlet/PatchDeleteStudentInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MatchingSQL</servlet-name>
+    <url-pattern>/servlet/MatchingSQL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>demo</servlet-name>
+    <url-pattern>/servlet/demo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Userpowerchange</servlet-name>
+    <url-pattern>/servlet/Userpowerchange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exit</servlet-name>
+        <url-pattern>/servlet/Exit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditUser</servlet-name>
+    <url-pattern>/servlet/EditUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownLoadServlet</servlet-name>
+    <url-pattern>/servlet/DownLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListFileServlet</servlet-name>
+    <url-pattern>/servlet/ListFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadHandleServlet</servlet-name>
+    <url-pattern>/servlet/UploadHandleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MatchingSQL2</servlet-name>
+    <url-pattern>/servlet/MatchingSQL2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>helloBar</servlet-name>
+    <url-pattern>/bar.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditIndex</servlet-name>
+    <url-pattern>/servlet/EditIndex</url-pattern>
+  </servlet-mapping>
+  
+
+</web-app>

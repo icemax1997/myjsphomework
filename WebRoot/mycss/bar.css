@@ -1,0 +1,79 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.bar {
+    width: 100%;
+    margin:0.5%;
+}
+
+.bar-left {
+    width:48%;
+    float: left;
+}
+
+.bar-right {
+    width:50%;
+    float: left;
+    text-align: right;
+}
+.barinput{
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #c8cccf;
+  color: #6a6f77;
+  width: 40%;
+}
+.barinput2{
+	margin:0.5em;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #c8cccf;
+  color: #6a6f77;
+  width: 130px;
+}
+.barinput3{
+	margin:0.5em;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #c8cccf;
+  color: #6a6f77;
+  width: 250px;
+}
+.barrsearch{
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #c8cccf;
+  color: #6a6f77;
+  background: #fff;
+  width: 15%;
+}
+.barhide{
+  visibility: hidden;
+}
+.baras a{
+text-decoration: none;
+color: #000;
+float: right;
+margin-left: 0.2em;
+margin-right: 0.2em;
+}
+.baras div{
+width: auto;
+float: right;
+}
+.barpatchdelete{
+padding: 0.2em;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #c8cccf;
+  color: #fff;
+  background-color: #00CC33;
+  width: 15%;
+}

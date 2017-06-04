@@ -1,0 +1,72 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+body {
+	font-size:12px ;
+	font-family: "microsoft yahei";
+}
+.topbar-container {
+	width:1190px;
+	min-width:1190px;
+	margin:0 auto;
+}
+.topbar .topbar-left li {
+	float:left;
+	display:inline;
+}
+.topbar .topbar-left .topbar-text {
+	padding:0 8px;
+	_float:left;
+}
+.topbar-right{
+	float: right;
+	display:inline;
+}
+.topbar .topbar-right li {
+	float:left;
+	_display:inline;
+	background-position:0 0;
+}
+.topbar .topbar-right .topbar-text {
+	padding:0 12px;
+}
+.topbar .topbar-dropdown-text {
+	position:relative;
+	cursor:default;
+	padding:0 22px 0 12px;
+	border-left:1px solid #eee;
+	border-right:1px solid #eee;
+	zoom:1;
+	z-index:100;
+}
+.topbar .topbar-dropdown-text i {
+	float:right;
+	position:absolute;
+	right:0;
+	top:0;
+	width:15px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	color:#333;
+	font-size:18px;
+}
+.topbar .topbar-dropdown-text i:before,.topbar .topbar-dropdown-text i:after {
+	position:absolute;
+	content:' ';
+	display:block;
+	width:0;
+	height:0;
+	border:4px solid transparent;
+	left:0;
+}
+.topbar .topbar-dropdown-text i:before {
+	top:14px;
+	border-top-color:#333;
+}
+.topbar .topbar-dropdown-text i:after {
+	top:13px;
+	border-top-color:#eee;
+}

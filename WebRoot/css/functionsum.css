@@ -1,0 +1,46 @@
+.functionsum{
+  float: left;
+  width: 388px;
+  margin: 1px;
+  padding: 0px;
+  	/*background-color: #eee;*/
+  	border: 1px solid #eee;
+}
+#supply,#buy{
+	width: 50px;
+	/*background-color: orange;*/
+	color:#000;
+	font-size: 25px;
+	float: none;
+	margin:0px;
+	padding: 0px;
+}
+#latest{
+	width: 100px;
+	/*background-color: orange;*/
+	color:#000;
+	font-size: 25px;
+	float: none;
+	margin:0px;
+	padding: 0px;
+}
+.functionsum >div:first-child{
+	margin:0px;
+	padding: 0px;
+	background-color: #eee;
+	color:#fff;
+	width: 100%;
+	height: 50px;
+	border-bottom: 4px solid orange;
+}
+.time ,.price,.type{
+	float: left;
+	width: 128px;
+	margin: 0px;
+	border-bottom: 1px dashed orange;
+	font-size: 15px;
+	text-align: center;
+}
+.functionsum ul:hover{
+	color: green;
+}

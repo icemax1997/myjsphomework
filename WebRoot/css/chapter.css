@@ -1,0 +1,580 @@
+    .chapter1>div{
+      float: left;
+      margin:1px;
+      font-size: 25px;
+      background-color: #f77;
+      width: 193px;
+      height: 118px;
+      font-size: 20px;
+      text-align: center;
+      vertical-align: center;
+      font-weight: bold;
+      color: #eee;
+    }
+
+    .chaptertwo{
+      margin: 3px;
+      float: left;
+      font-size: 25px;
+      border: 1px solid #eee;
+      width: 1167px;
+      height: 442.4px;
+    }
+    .chaptertwo-s{
+       margin: 3px;
+      float: left;
+      font-size: 25px;
+      border: 1px solid #eee;
+      width: 580px;
+      height: 392px;
+    }
+    .chaptertwo-bottom{
+      border-top: 2px solid orange;
+    }
+    .chaptertwo-1-1{
+      float: left;
+      font-size: 25px;
+      color: orange;
+      font-weight: bold;
+      /*background-color: gray;*/
+    }
+    .chaptertwo-1-2{
+     float: left;
+     font-size: 13px;
+     color: #099;
+     padding-top: 14px;
+     margin: 2px;
+   }
+   .chaptertwo-2{
+    float: left;
+  }
+  .chaptertwo-2-1{
+    width: 220px;
+    height: 200px;
+    /*background-color: #577;*/
+  }
+  .chaptertwo-2-2,.chaptertwo-2-2-s{
+    width: 220px;
+    height: 50px;
+    background-color: #FFEDEF;
+  }
+  .chaptertwo-2-2-s{
+
+     width: 220px;
+    height: 50px;
+    background-color: #E1FFE7;
+  }
+  .chaptertwo-2-3,.chaptertwo-2-3-s{
+     width: 220px;
+    height: 150px;
+    background-color: #FFEDEF;
+  }
+  .chaptertwo-2-3 a,.chaptertwo-2-3-s a{
+    float: left;
+    font-size: 15px;
+    margin: 1px;
+    line-height: 25px;
+    padding-right: 3px;
+    border-right: 1px solid #ccc;
+    padding-left: 3px;
+    padding-left: 10px;
+  }
+  .chaptertwo-2-3-s{
+    width: 220px;
+    height: 150px;
+    background-color: #E1FFE7;
+  }
+  .chaptertwo-2-2 div,.chaptertwo-2-2-s div{
+    font-size: 20px;
+    width: 200px;
+    border-left: 5px solid orange;
+    margin-left: 10px;
+    padding-left: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .chaptertwo-2-4{
+    float: left;
+    width: 240px;
+    height: 400px;
+    /*background-color: #fcc;*/
+  }
+  .chaptertwo-2-5{
+    height: 200px;
+    width: 122.5px;
+    /*background-color: #ccf;*/
+  }
+  .chaptertwo-2-6{
+    height: 200px;
+    width: 122.5px;
+    /*background-color: #99f;*/
+  }
+  .chaptertwo-3{
+    float: left;
+    background-color: #ff6;
+    width: 215px;
+    height: 400px;
+  }
+  .chaptertwo-4{
+    float: left;
+    width: 316px;
+    height: 400px;
+    /*background-color: #cc9;*/
+    /*    border-right: 1px dashed #ccc;*/
+  }
+  .chaptertwo-4-1{
+    width: 317px;
+    height: 40px;
+    /*background-color: #66f;*/
+  }
+  .chaptertwo-4-1-title{
+    font-size: 18px;
+    margin-left: 15px;
+    padding-left: 5px;
+    border-left: 8px solid orange;
+  }
+  .chaptertwo-4-2{
+    width: 317px;
+    height: 190px;
+  }
+    .chaptertwo-4-2-s{
+    margin-left: 30px;
+    width: 317px;
+    height: 190px;
+  }
+  .chaptertwo-4-2-1{
+    width: 297px;
+    height: 170px;
+    background-color: #6cf;
+  }
+  .chaptertwo-4-3{
+    width: 307px;
+    height: 80px;
+    /*background-color: #ccf;*/
+    border-top: 1px dashed #ccc;
+    margin: 0 auto;
+  }
+  .chaptertwo-4-3 a{
+    /*background-color: #ff7;*/
+    margin-left: 3px;
+    font-size: 16px;
+    padding-right: 3px;
+    border-right: 1px solid #ccc;
+  }
+  .chaptertwo-4-4{
+    width: 307px;
+    height: 71px;
+    margin: 0 auto;
+    /*background-color: #ffc;*/
+    border-top: 1px dashed #ccc;
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  .chaptertwo-5{
+    float: left;
+    width:313px;
+    height: 400px;
+    /*background-color: black;*/
+  }
+  .chaptertwo-5-1{
+    width:313px;
+    height: 100px;
+    /*background-color: #cc7;*/
+  }
+    .chaptertwo-5-1-s{
+    float: left;
+    width:365px;
+    height:350px;
+    /*background-color: red;*/
+    border-bottom: 1px solid #eee;
+  }
+  .chaptertwo-5-1-1{
+    float: left;
+    width:156.5px;
+    height: 40px;
+    /*background-color: red;*/
+    border-bottom: 1px solid #eee;
+  }
+    .chaptertwo-5-1-1-s{
+    float: left;
+    width:182.5px;
+    height: 40px;
+    /*background-color: red;*/
+    border-bottom: 1px solid #eee;
+  }
+    .chaptertwo-5-1-1-ss{
+    width:365px;
+     border-bottom: 1px solid #eee;
+  }
+  .chaptertwo-5-1-2{
+    float: left;
+    width:156.5px;
+    height: 40px;
+    /*background-color: orange;*/
+    border-bottom: 1px solid #eee;
+  }
+    .chaptertwo-5-1-2-s{
+    float: left;
+    width:182.5px;
+    height: 40px;
+    /*background-color: orange;*/
+    border-bottom: 1px solid #eee;
+  }
+  .chaptertwo-5-1-1 span,.chaptertwo-5-1-2 span{
+    font-size: 15px;
+    margin-left: 15px;
+    padding-left: 5px;
+    border-left: 4px solid orange;
+  }
+    .chaptertwo-5-1-1-s span,.chaptertwo-5-1-2-s span,.chaptertwo-5-1-1-ss span{
+    font-size: 15px;
+    margin-left: 15px;
+    padding-left: 5px;
+    border-left: 4px solid orange;
+  }
+
+  .chaptertwo-5-2-3{
+    float: left;
+    width:156.5px;
+    height: 60px;
+    padding-left: 12px;
+    /*background-color: black;*/
+  }
+    .chaptertwo-5-2-3-s{
+    float: left;
+    width:182.5px;
+    height: 60px;
+    padding-left: 12px;
+    /*background-color: black;*/
+  }
+  .chaptertwo-5-2-3-ss{
+    float: left;
+    width:365px;
+    height: 60px;
+    padding-left: 12px;
+    /*background-color: black;*/
+  }
+  .chaptertwo-5-2-3 div,.chaptertwo-5-2-3-s div,.chaptertwo-5-2-3-ss div{
+    float: left;
+    font-size: 13px;
+    /*background-color: orange;*/
+    margin: 1px;
+    line-height: 25px;
+    padding-right: 3px;
+    border-right: 1px solid #ccc;
+    padding-left: 3px;
+  }
+  .chaptertwo-5-3{
+    width:313px;
+    height: 100px;
+    /*background-color: #fc7;*/
+  }
+  .chaptertwo-5-3-1{
+    border-bottom: 1px solid #eee;
+  }
+  .chaptertwo-5-3 span{
+    font-size: 15px;
+    margin-left: 15px;
+    padding-left: 5px;
+    border-left: 4px solid orange;
+  }
+  .chaptertwo-5-3-2{
+    float: left;
+    width:313px;
+    height: 60px;
+    padding-left: 12px;
+    /*background-color: black;*/
+  }
+  .chaptertwo-5-3-2 div{
+    float: left;
+    font-size: 12px;
+    /*background-color: orange;*/
+    margin: 1px;
+    line-height: 25px;
+    padding-right: 3px;
+    border-right: 1px solid #ccc;
+    padding-left: 3px;
+  }
+  .chaptertwo-5-4{
+    width:313px;
+    height: 200px;
+    /*background-color: #333;*/
+    padding: 20px;
+  }
+  .chaptertwo-5-4 div{
+    font-size: 15px;
+    background-color: #eee;
+    margin-bottom: 5px;
+  }
+  .chaptertwo-6{
+    float: left;
+    width: 348px;
+    height:400px;
+    /*background-color: orange;*/
+  }
+  .chaptertwo-6 div{
+    width: 348px;
+    height:200px;
+    background-color: orange;
+  }
+  .chaptertwo-7{
+    float: left;
+    width: 288px;
+    height: 400px;
+    /*background-color: red;*/
+  }
+  .chaptertwo-7-1{
+    float: left;
+    width: 144px;
+    height: 200px;
+    background-color: #779;
+  }
+  .chaptertwo-7-2{
+    float: left;
+    width: 144px;
+    height: 200px;
+    background-color: #ff9;
+  }
+  .chaptertwo-7-3{
+    float: left;
+    width: 288px;
+    height: 200px;
+    background-color: #cf9;
+  }
+  .chaptertwo-8{
+    float: left;
+    background-color: #f7e7ff;
+    width: 215px;
+    height: 400px;
+  }
+  .chaptertwo-8-1{
+    /*background-color: orange;*/
+    border-bottom: 1px solid #ddd;
+
+  }
+  .chaptertwo-8-1 span{
+    font-size: 20px;
+    border-left: 5px solid orange;
+    margin-left: 10px;
+    padding-left: 5px;
+  }
+  .chaptertwo-8-2{
+    /*background-color: black;*/
+    float: none;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+  .chaptertwo-8-2 div{
+    float: left;
+    font-size: 12px;
+    /*background-color: orange;*/
+    margin: 1px;
+    padding-right: 3px;
+    border-right: 1px solid #ccc;
+    padding-left: 3px;
+  }
+
+  .chaptertwo-9{
+    float: left;
+    background-color: #eec;
+    width: 265px;
+    height: 400px;
+  }
+  .chaptertwo-10{
+    float: left;
+    background-color: #ffc;
+    width: 424px;
+    height: 400px;
+  }
+  .chaptertwo-10-1{
+    float: left;
+    width: 212px;
+    height: 200px;
+    background-color: #779;
+  }
+  .chaptertwo-10-2{
+    float: left;
+    width: 212px;
+    height: 200px;
+    background-color: #ff9;
+  }
+  .chaptertwo-10-3{
+    float: left;
+    width: 424px;
+    height: 200px;
+    background-color: #cf9;
+  }
+  .chaptertwo-11{
+    float: left;
+    background-image: url(../images/31.jpg);
+    width: 260px;
+    height: 400px;
+  }
+  .chaptertwo-11-1{
+    background-color:rgba(255,255,255,0.5);
+    margin: 300px 20px 20px 20px;
+    border: 1px solid #00CED1;
+    font-size: 15px;
+    height: 80px;
+  }
+  .chaptertwo-12{
+    float: left;
+    width: 316px;
+    height:400px;
+    /*background-color: orange;*/
+  }
+  .chaptertwo-12-title{
+    border-bottom: 1px solid #eee;
+  }
+  .chaptertwo-12-1{
+    width: 316px;
+    height:200px;
+    /*background-color: gray;*/
+    padding: 5px;
+  }
+  .chaptertwo-12-2{
+    width: 316px;
+    height:200px;
+    /*background-color: #eee;*/
+  }
+  .chaptertwo-12-1-1{
+    width:316px;
+    /*background-color: #cc7;*/
+    font-size: 15px;
+    padding-left: 5px;
+    margin-left: 5px;
+    border-left: 5px solid orange;
+
+  }
+  .chaptertwo-12-1-2{
+    /*background-color: black;*/
+    float: none;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+  .chaptertwo-12-1-2 div{
+    float: left;
+    font-size: 14px;
+    color: #747474;
+    /*background-color: orange;*/
+    margin: 5px;
+    padding-right: 3px;
+    border-right: 1px solid #ccc;
+    padding-left: 3px;
+  }
+  .chaptertwo-12-1-3{
+    width: 300px;
+    margin: 0 auto;
+    /*background-color: #ffc;*/
+    font-size: 13px;
+    margin-top: 10px;
+  }
+.chaptertwo-13{
+  height: 350px;
+  width: 580px;
+  /*background-color: orange;*/
+}
+.chaptertwo-13-1{
+  float: left;
+  width: 215px;
+  height: 350px;
+  /*background-color: black;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .end{
+    margin: 0px;
+    float: left;
+    background-color: #F5F5F8;
+    width: 100%;
+    height: 240px;
+    color: #C8CBCF;
+  }
+  .person{
+    float: left;
+    width: 350px;
+    margin:0 auto;
+    padding-right: 10px;
+  }
+  .person-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .person-text{
+    font-size: 18px;
+    color: gray;
+    margin: 0 auto;
+  }
+  .links{
+    float: left;
+    width: 200px;
+    padding-left: 30px;
+    margin-top: 10px;
+    border-left:2px solid #fcc;
+    border-right: 2px solid #fcc;
+  }
+  .links p{
+    margin-top: 0px;
+    font-size: 25px;
+    color: gray;
+  }
+  .links div{
+    color: gray;
+    font-size: 17px;
+    margin: 0 auto;
+  }
+  .contact{
+    float: left;
+    width: 400px;
+  }
+  .contact p{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    /*text-align: center;*/
+    margin-left: 50px;
+    color: gray;
+  }
+  .contact div{
+    font-size: 18px;
+    color: gray;
+  }
+  .contact-icons{
+    float: left;
+    margin-left: 50px;
+    margin-right: 30px;
+    width: 128px;
+    height: 128px;
+    /*background-color: red;*/
+  }
+  .contact-icon1,.contact-icon3{
+   float: left;
+ }
+ .contact-p{
+  font-size: 15px;
+  color: gray;
+}
+.in{
+  width: 1000px;
+  height: 240px;
+  /*background-color: #ff5;*/
+  margin: 0 auto;
+}

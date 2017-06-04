@@ -1,0 +1,64 @@
+.br{
+	width: 1165px;
+	margin: 0 auto;
+	height: 121px;
+}
+.banner{
+	float: left;
+}
+.br-right{
+	float: left;
+	/*background-color: orange;*/
+}
+.br-right-1{
+float: none;
+}
+.br-right-1 div{
+float: left;
+padding-right: 10px;
+margin-right: 10px;
+border-right: 2px solid orange;
+font-size: 15px;
+}
+.br-right-2 input{
+	float: left;
+	margin-top: 10px;
+	width:350px;
+    height:40px;
+    border: 1px solid #009237;
+}
+.search{
+	float: left;
+	margin-top: 10px;
+	padding-top: 0px;
+	margin-left: 0px;
+	width: 80px;
+	height:40px;
+	text-align: center;
+    background-color: #009237;
+    font-size:20px;
+    color: #fff;
+}
+.cart{
+	float: left;
+	margin-top: 10px;
+	padding-top: 0px;
+	margin-left: 10px;
+	width: 130px;
+	height:40px;
+	text-align: center;
+    background-color: #009237;
+    font-size:20px;
+    color: #666;
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+}
+.br-right-3{
+	float: left;
+}
+.br-right-3 div{
+	float: left;
+	color: #999;
+	margin-left: 5px;
+	margin-right: 5px;
+}

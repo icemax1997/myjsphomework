@@ -1,0 +1,18 @@
+.right div{
+  float: none;
+}
+.calendar{
+  width: 250px;
+  height: 200px;
+  background-color: #ff3;
+}
+.login-regist{
+  width: 250px;
+  height: 200px;
+  background-color: gray;
+}
+.else{
+  background-color: #ff3;
+  width: 250px;
+  height: 80px;
+}

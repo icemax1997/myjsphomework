@@ -1,0 +1,30 @@
+body{
+  width: 100%;
+  height: 100%;
+  padding:0px;
+  margin:0px;
+}
+html{
+  width: 100%;
+  height: 100%;
+  padding:0px;
+  margin:0px;
+}
+
+.downheader{
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: bold;
+  color: #fff;
+  background: orange;
+}
+.downheader div{
+  padding-top: 7%;
+}
+.downbody{
+  text-align: center;
+  font-size: 2.0em;
+  margin: 0.5em;
+}

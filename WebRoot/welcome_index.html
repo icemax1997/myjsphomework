@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>农贸网</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="dist/css/flat-ui.css" rel="stylesheet">
+	<style type="text/css">
+		.test {
+			background-color: #eee;
+		}
+
+		.float {
+			float: left;
+			align-self: center;
+		}
+
+		.main {
+			width: 1200px;
+			min-width: 100px;
+			margin: 0 auto;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/topbar.css">
+	<link rel="stylesheet" type="text/css" href="css/my-unslider.css">
+	<link rel="stylesheet" type="text/css" href="css/mydownlist.css">
+	<link rel="stylesheet" type="text/css" href="css/functionsum.css">
+	<link rel="stylesheet" href="css/right.css">
+	<link rel="stylesheet" href="css/chapter.css">
+	<link rel="stylesheet" href="css/br.css">
+</head>
+
+<body>
+	<!-- topbar-begin -->
+	<div>
+		<div class="topbar">
+			<div class="topbar-container">
+				<ul class="topbar-left ">
+					<li class="topbar-dropdown">
+						<div class="topbar-dropdown-text">
+							<span>所在地：</span>
+							<span>杭州</span>
+						</div>
+					</li>
+					<li>
+						<ul>
+							<li class="topbar-text">您好，欢迎来到中国农贸网</li>
+							<!-- <li class="topbar-text">请登录</li>
+							<li class="topbar-text">免费注册</li> -->
+						</ul>
+					</li>
+				</ul>
+
+				<ul class="topbar-right">
+					<li>
+						<div class="topbar-text">农贸首页</div>
+					</li>
+					<!-- <li>
+						<div class="topbar-text">我的农贸</div>
+					</li> -->
+					<li class="topbar-dropdown">
+						<div class="topbar-dropdown-text"><i>&nbsp;</i><span>关注农贸</span></div>
+					</li>
+					<li>
+						<div class="topbar-text">联系客服</div>
+					</li>
+					<li>
+						<div class="topbar-text">农贸学堂</div>
+					</li>
+					<li class="topbar-dropdown">
+						<div class="topbar-dropdown-text"><i>&nbsp;</i><span>网站导航</span></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		&nbsp;
+		<div class="br">
+			<div class="banner"><img src="images/banner.jpg" alt=""></div>
+			<!-- <div class="test">xxx</div> -->
+			<div class="br-right">
+				<div class="br-right-1">
+					<div>供应</div>
+					<div>供应商</div>
+					<div>采购</div>
+					<div>资讯</div>
+				</div>
+				<div class="br-right-2"><input type="text">
+					<div class="search">搜索</div>
+					<div class="cart"><a href="login.jsp">进入系统></a></div>
+				</div>
+				<div class="br-right-3">
+					<div>苹果</div>
+					<div>鸡</div>
+					<div>白菜</div>
+					<div>柑桔</div>
+					<div>大闸蟹</div>
+					<div>枸杞</div>
+					<div>小米</div>
+					<div>土豆</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!-- topbar-end -->
+	<!-- banner+research-begin -->
+
+	<!-- banner+research-end -->
+	<!-- menu-begin -->
+
+	<!-- <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-inverse" role="navigation">
+					<div class="collapse navbar-collapse navbar-collapse-01">
+						<ul class="nav navbar-nav navbar-left">
+							<li class="active"><a href="index.html">农贸市场</a></li>
+							<li class="dropdown">
+								<a href="#fakelink" class="dropdown-toggle" data-toggle="dropdown">
+              采购大厅
+              <span class="caret"></span>
+            </a>
+								<ul class="dropdown-menu">
+									<li><a href="#fakelink">品种选择</a></li>
+									<li> <a href="#fakelink">产地选择</a></li>
+								</ul>
+								
+							</li>
+							<li class="dropdown">
+								<a href="#fakelink" class="dropdown-toggle" data-toggle="dropdown">
+           						 供应大厅
+           						 <span class="caret"></span>
+         						 </a>
+								<ul class="dropdown-menu">
+									<li><a href="#fakelink">水果蔬菜</a></li>
+									<li> <a href="#fakelink">畜牧水产</a></li>
+									<li><a href="#fakelink">粮油米面</a></li>
+									<li><a href="#fakelink">农副加工</a></li>
+									<li> <a href="#fakelink">苗木花草</a></li>
+									<li><a href="#fakelink">农贸农机</a></li>
+									<li><a href="#fakelink">中药材</a></li>
+								</ul>
+								
+							</li>
+							<li class="dropdown">
+								<a href="#fakelink" class="dropdown-toggle" data-toggle="dropdown">
+          市场行情
+          <span class="caret"></span>
+          </a>
+								
+							</li>
+							<li><a href="#fakelink">行业资讯</a></li>
+							<li><a href="#fakelink">产业带</a></li>
+							<li><a href="#fakelink">农贸学堂</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div> -->
+	<script src="dist/js/vendor/jquery.min.js"></script>
+	<script src="dist/js/flat-ui.min.js"></script>
+	<!-- menu-end -->
+	<!-- importnt area -begin -->
+	<center>
+		<div class="main">
+			<!-- mydownlist-begin -->
+			<nav id="mysidebarmenu" class="mydownlist">
+				<ul>
+					<li class="mydownlist-title">
+						<div class="mydownlist-title-child">
+							<span>
+                    <a href=""><img src="images/favorite.png" alt="" class="favorite">我的关注</a>
+                  </span>
+						</div>
+						<ul>
+							<li><a href="">您暂未关注任何板块 </a></li>
+						</ul>
+					</li>
+					<li class="mydownlist-title">
+						<div class="mydownlist-title-child"><span><a href=""><img src="images/fruit.png" alt="">水果蔬菜</a></span></div>
+						<div class="content">
+							<dl>
+								<div class="content-div">
+									<dt class="content-title">水果</dt>
+									<dd>梨</dd>
+									<dd>西瓜</dd>
+									<dd>哈密瓜</dd>
+									<dd>猕猴桃</dd>
+									<dd>蜜桃</dd>
+									<dd>柑桔</dd>
+									<dd>八月瓜</dd>
+									<dd>橙子</dd>
+									<dd>柚子</dd>
+									<dd>柠檬</dd>
+									<dd>金桔</dd>
+									<dd>李子</dd>
+									<dd>杏</dd>
+									<dd>香蕉</dd>
+									<dd>圣女果</dd>
+								</div>
+								<div class="content-div">
+									<dt class="content-title">蔬菜</dt>
+									<dd>白菜</dd>
+									<dd>小白菜</dd>
+									<dd>生菜</dd>
+									<dd>包菜</dd>
+									<dd>韭菜</dd>
+									<dd>香菜</dd>
+									<dd>菜苔</dd>
+									<dd>油麦菜</dd>
+									<dd>韭黄</dd>
+									<dd>莴笋</dd>
+									<dd>芹菜</dd>
+									<dd>花椰菜</dd>
+									<dd>黄花菜</dd>
+									<dd>西兰花</dd>
+									<dd>萝卜</dd>
+									<dd>胡萝卜</dd>
+									<dd>南瓜</dd>
+									<dd>丝瓜</dd>
+									<dd>冬瓜</dd>
+									<dd>黄瓜</dd>
+									<dd>苦瓜</dd>
+									<dd>辣椒</dd>
+									<dd>西红柿</dd>
+									<dd>秋葵</dd>
+									<dd>莲藕</dd>
+									<dd>红薯</dd>
+									<dd>紫薯</dd>
+									<dd>土豆</dd>
+									<dd>芋头</dd>
+									<dd>山药</dd>
+									<dd>葛根</dd>
+									<dd>魔芋</dd>
+									<dd>香菇</dd>
+									<dd>木耳</dd>
+									<dd>杏鲍菇</dd>
+								</div>
+							</dl>
+						</div>
+					</li>
+					<li class="mydownlist-title">
+						<div class="mydownlist-title-child"><span><a><img src="images/shuichan.png" alt="">畜牧水产</a></span></div>
+						<div class="content">
+							<dl>
+								<div class="content-div">
+									<dt class="content-title">特种类</dt>
+									<dd>蛇</dd>
+									<dd>甲鱼</dd>
+								</div>
+								<div class="content-div">
+								</div>
+							</dl>
+						</div>
+					</li>
+					<li class="mydownlist-title">
+						<div class="mydownlist-title-child"><span><a><img src="images/rice.png" alt="">粮油米面</a></span></div>
+						<div class="content">
+							<dl>
+								<div class="content-div">
+									<dt class="content-title">五谷杂粮</dt>
+									<dd>蓖麻</dd>
+								</div>
+								<div class="content-div">
+									<dt class="content-title">食用油</dt>
+									<dd>大豆油</dd>
+								</div>
+								<div class="content-div">
+									<dt class="content-title">调味品</dt>
+									<dd>盐</dd>
+								</div>
+							</dl>
+						</div>
+					</li>
+					<li class="mydownlist-title">
+						<div class="mydownlist-title-child"><span><a><img src="images/product.png" alt="">农副加工</a></span></div>
+						<div class="content">
+							<dl>
+								<div class="content-div">
+									<dt class="content-title">酒茶冲饮</dt>
+									<dd>绿茶</dd>
+								</div>
+								<div class="content-div">
+									<dt class="content-title">肉类水产加工</dt>
+									<dd>香肠</dd>
+								</div>
+							</dl>
+						</div>
+					</li>
+					<li class="mydownlist-title">
+						<div class="mydownlist-title-child"><span><a href=""><img src="images/plant.png" alt="">苗木花草</a></span></div>
+						<div class="content">
+							<dl>
+								<div class="content-div">
+									<dt class="content-title">常绿乔木</dt>
+									<dd>红豆杉</dd>
+								</div>
+								<div class="content-div">
+									<dt class="content-title">落叶乔木</dt>
+									<dd>红枫</dd>
+								</div>
+								<div class="content-div">
+									<dt class="content-title">常绿灌木</dt>
+									<dd>黄杨</dd>
+								</div>
+							</dl>
+						</div>
+					</li>
+					<li class="mydownlist-title">
+						<div class="mydownlist-title-child"><span><a><img src="images/business.png" alt="">农资农机</a></span> </div>
+						<div class="content">
+							<dl>
+								<div class="content-div">
+									<dt class="content-title">农资</dt>
+									<dd>农药</dd>
+								</div>
+								<div class="content-div">
+									<dt class="content-title">农机</dt>
+									<dd>农用机械</dd>
+								</div>
+								<div class="content-div">
+									<dt class="content-title">根茎类</dt>
+									<dd>人参</dd>
+								</div>
+								<div class="content-div">
+									<dt class="content-title">果实籽仁类</dt>
+									<dd>巴豆</dd>
+								</div>
+							</dl>
+						</div>
+					</li>
+					<li class="mydownlist-title">
+						<div class="mydownlist-title-child"><span><a href=""><img src="images/medicine.png" alt="">中药材</a></span> </div>
+						<div class="content">
+							<dl>
+								<div class="content-div">
+									<dt class="content-title">根茎类</dt>
+									<dd>人参</dd>
+								</div>
+								<div class="content-div">
+									<dt class="content-title">果实籽仁类</dt>
+									<dd>巴豆</dd>
+								</div>
+							</dl>
+						</div>
+					</li>
+					<li class="mydownlist-title">
+						<div class="mydownlist-title-child"><span><a href=""><img src="" alt="">else</a></span> </div>
+						<div class="content">
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<script src="js/mydownlist.js"></script>
+			<script>
+				jQuery(function() {
+					amazonmenu.init({
+						menuid: 'mysidebarmenu'
+					})
+				})
+			</script>
+			<!-- mydownlist-end -->
+			<!-- unslider-begin -->
+			<div class="float">
+				<div class="banner" id="unslider">
+					<ul class="unslider-ul">
+						<li class="unslider-li"><img src="images/1.jpg" width="970" height="480"></li>
+
+						<li class="unslider-li"><img src="images/2.jpg" width="970" height="480"></li>
+
+						<li class="unslider-li"><img src="images/3.jpg" width="970" height="480"></li>
+
+						<li class="unslider-li"><img src="images/4.jpg" width="970" height="480"></li>
+
+						<li class="unslider-li"><img src="images/5.jpg" width="970" height="480"></li>
+
+						<li class="unslider-li"><img src="images/6.jpg" width="970" height="480"></li>
+					</ul>
+					<a class="unslider prev"><img class="unslider-arrow" id="al" src="images/arrowl.png" alt="prev" width="20" height="35"></a>
+					<a class="unslider next"><img class="unslider-arrow" id="ar" src="images/arrowr.png" alt="next" width="20" height="37"></a>
+				</div>
+				<script src="js/jquery.js"></script>
+				<script src="js/unslider.min.js"></script>
+				<script>
+					$(document).ready(function(e) {
+						var unslider04 = $('#unslider').unslider({
+								dots: true
+							}),
+							data04 = unslider04.data('unslider');
+						$('.unslider').click(function() {
+							var fn = this.className.split(' ')[1];
+							data04[fn]();
+						});
+					});
+				</script>
+			</div>
+			<!-- unslider-end -->
+			<!--right-begin-->
+			<!-- <div class="float">
+				<div class="calendar">这里是日历</div>
+				<div class="login-regist">登录/注册</div>
+				<div class="else">else</div>
+			</div> -->
+			<!-- right-end -->
+		</div>
+	</center>
+	<!-- importnt area -end -->
+	<div class="main">
+		<!-- AD-begin -->
+		<div class="chapter1">
+			<div><img src="images/38.jpg" alt=""></div>
+			<div><img src="images/39.jpg" alt=""></div>
+			<div><img src="images/40.jpg" alt=""></div>
+			<div><img src="images/41.jpg" alt=""></div>
+			<div><img src="images/42.jpg" alt=""></div>
+			<div><img src="images/43.jpg" alt=""></div>
+		</div>
+		<!-- AD-end -->
+		<!-- functionsum-begin -->
+		<div class="functionsum">
+			<div>
+				<center>
+					<div id="supply">供应</div>
+				</center>
+			</div>
+			<div class="functionsum-content">
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+			</div>
+		</div>
+		<div class="functionsum">
+			<div>
+				<center>
+					<div id="buy">采购</div>
+				</center>
+			</div>
+			<div class="functionsum-content">
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+			</div>
+		</div>
+		<div class="functionsum">
+			<div>
+				<center>
+					<div id="latest">最新行情</div>
+				</center>
+			</div>
+			<div class="functionsum-content">
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+				<ul>
+					<span class="price">3.5元/盆</span>
+					<span class="time">2017-03-29</span>
+					<span class="type">常春藤</span>
+				</ul>
+			</div>
+		</div>
+		<!-- functionsum-end -->
+		<div class="chaptertwo">
+			<div>
+				<div class="chaptertwo-1-1">
+					水果蔬菜
+				</div>
+				<div>
+					<div class="chaptertwo-1-2">土豆</div>
+					<div class="chaptertwo-1-2">洋葱</div>
+					<div class="chaptertwo-1-2">辣椒</div>
+					<div class="chaptertwo-1-2">柑桔</div>
+					<div>&nbsp;</div>
+				</div>
+				<div>
+					<div class="chaptertwo-2">
+						<img src="images/7.jpg" alt="" class="chaptertwo-2-1">
+						<div class="chaptertwo-2-2">
+							<div>水果</div>
+						</div>
+						<div class="chaptertwo-2-3">
+							<a href="">梨</a>
+							<a href="">橙子</a>
+							<a href="">柚子</a>
+							<a href="">葡萄</a>
+							<a href="">红枣</a>
+							<a href="">猕猴桃</a>
+							<a href="">苹果</a>
+						</div>
+					</div>
+					<div>
+						<div class="chaptertwo-2-4"><img src="images/8.jpg" alt=""></div>
+					</div>
+					<div class="chaptertwo-2">
+						<div class="chaptertwo-2-5"><img src="images/9.jpg" alt=""></div>
+						<div class="chaptertwo-2-6"><img src="images/10.jpg" alt=""></div>
+					</div>
+				</div>
+				<div>
+					<div class="chaptertwo-2">
+						<div class="chaptertwo-2-1"><img src="images/11.jpg" alt=""></div>
+						<div class="chaptertwo-2-2-s">
+							<div>蔬菜</div>
+						</div>
+						<div class="chaptertwo-2-3-s">
+							<a href="">辣椒</a>
+							<a href="">白菜</a>
+							<a href="">南瓜</a>
+							<a href="">山药</a>
+							<a href="">生姜</a>
+							<a href="">红薯</a>
+							<a href="">土豆</a>
+							<a href="">冬瓜</a>
+						</div>
+					</div>
+					<div>
+						<div class="chaptertwo-2-4"><img src="images/12.jpg" alt=""></div>
+					</div>
+					<div class="chaptertwo-2">
+						<div class="chaptertwo-2-5"><img src="images/13.jpg" alt=""></div>
+						<div class="chaptertwo-2-6"><img src="images/14.jpg"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="chaptertwo">
+			<div>
+				<div class="chaptertwo-1-1">
+					畜牧水产
+				</div>
+				<div>
+					<div class="chaptertwo-1-2">鸡</div>
+					<div class="chaptertwo-1-2">牛</div>
+					<div class="chaptertwo-1-2">羊</div>
+					<div class="chaptertwo-1-2">猪</div>
+					<div class="chaptertwo-1-2">龟</div>
+					<div>&nbsp;</div>
+				</div>
+				<div class="chaptertwo-3"><img src="images/15.jpg" alt=""></div>
+				<div class="chaptertwo-4">
+					<div class="chaptertwo-4-1"><span class="chaptertwo-4-1-title">畜牧类</span></div>
+					<div class="chaptertwo-4-2"><img src="images/16.jpg" alt=""><img src="images/17.jpg" alt=""></div>
+					<div class="chaptertwo-4-3">
+						<a href="">黄鳝</a>
+						<a href="">小龙虾</a>
+						<a href="">大闸蟹</a>
+						<a href="">鲍鱼</a>
+						<a href="">草鱼</a>
+						<a href="">海带</a>
+						<a href="">鱼苗</a>
+						<a href="">虾苗</a>
+						<a href="">蟹苗</a>
+					</div>
+					<div class="chaptertwo-4-4">【喜讯】我院响应“地球一小时”荧光夜跑活动成功举办</div>
+				</div>
+				<div class="chaptertwo-4">
+					<div class="chaptertwo-4-1"><span class="chaptertwo-4-1-title">特种类</span></div>
+					<div class="chaptertwo-4-2"><img src="images/18.jpg" alt=""><img src="images/19.jpg" alt=""></div>
+					<div class="chaptertwo-4-3">
+						<a href="">黄鳝</a>
+						<a href="">小龙虾</a>
+						<a href="">大闸蟹</a>
+						<a href="">鲍鱼</a>
+						<a href="">草鱼</a>
+						<a href="">海带</a>
+						<a href="">鱼苗</a>
+						<a href="">虾苗</a>
+						<a href="">蟹苗</a>
+					</div>
+					<div class="chaptertwo-4-4">【喜讯】我院举办第三届“互联网+”大学生创新创业大赛</div>
+				</div>
+				<div class="chaptertwo-4">
+					<div class="chaptertwo-4-1"><span class="chaptertwo-4-1-title">水产类</span></div>
+					<div class="chaptertwo-4-2"><img src="images/20.jpg" alt=""><img src="images/21.jpg" alt=""></div>
+					<div class="chaptertwo-4-3">
+						<a href="">黄鳝</a>
+						<a href="">小龙虾</a>
+						<a href="">大闸蟹</a>
+						<a href="">鲍鱼</a>
+						<a href="">草鱼</a>
+						<a href="">海带</a>
+						<a href="">鱼苗</a>
+						<a href="">虾苗</a>
+						<a href="">蟹苗</a>
+					</div>
+					<div class="chaptertwo-4-4">【喜讯】我院举办2017年电子商务竞赛院决赛</div>
+				</div>
+			</div>
+		</div>
+		<div class="chaptertwo">
+			<div>
+				<div class="chaptertwo-1-1">
+					粮油米面
+				</div>
+				<div>
+					<div class="chaptertwo-1-2">大米</div>
+					<div class="chaptertwo-1-2">玉米粒</div>
+					<div class="chaptertwo-1-2">高粱</div>
+					<div class="chaptertwo-1-2">大豆</div>
+					<div class="chaptertwo-1-2">花椒</div>
+					<div>&nbsp;</div>
+				</div>
+				<div class="chaptertwo-3"><img src="images/22.jpg" alt=""></div>
+				<div class="chaptertwo-5">
+					<div class="chaptertwo-5-1">
+						<div class="chaptertwo-5-1-1">
+							<span>五谷杂粮</span>
+						</div>
+						<div class="chaptertwo-5-1-2">
+							<span>食用油</span>
+						</div>
+						<div class="chaptertwo-5-2-3">
+							<div>大米</div>
+							<div>高粱</div>
+							<div>玉米粒</div>
+							<div>小麦</div>
+							<div>花生</div>
+							<div>大豆</div>
+						</div>
+						<div class="chaptertwo-5-2-3">
+							<div>大豆油</div>
+							<div>山茶油</div>
+							<div>花生油</div>
+							<div>菜籽油</div>
+						</div>
+					</div>
+					<div class="chaptertwo-5-3">
+						<div class="chaptertwo-5-3-1">
+							<span>调味品</span>
+						</div>
+						<div class="chaptertwo-5-3-2">
+							<div>干辣椒</div>
+							<div>花椒</div>
+							<div>桂皮</div>
+							<div>粉条</div>
+							<div>面粉</div>
+							<div>八角</div>
+							<div>糖</div>
+							<div>调味油</div>
+							<div>淀粉</div>
+							<div>豆制品</div>
+						</div>
+					</div>
+					<div class="chaptertwo-5-4">
+						<div>【喜讯】我院举办2017年电子商务竞赛院决赛</div>
+						<div>【喜讯】我院举办第三届“互联网+”大学生创新创业大赛</div>
+						<div>【喜讯】我院响应“地球一小时”荧光夜跑活动成功举办</div>
+					</div>
+				</div>
+				<div class="chaptertwo-6">
+					<div><img src="images/23.jpg" alt=""></div>
+					<div><img src="images/24.jpg" alt=""></div>
+				</div>
+				<div class="chaptertwo-7">
+					<div class="chaptertwo-7-1"><img src="images/25.jpg" alt=""></div>
+					<div class="chaptertwo-7-2"><img src="images/26.jpg" alt=""></div>
+					<div class="chaptertwo-7-3"><img src="images/27.jpg" alt=""></div>
+				</div>
+			</div>
+		</div>
+		<div class="chaptertwo">
+			<div>
+				<div class="chaptertwo-1-1">
+					农副加工
+				</div>
+				<div>
+					<div class="chaptertwo-1-2">红茶</div>
+					<div class="chaptertwo-1-2">红枣</div>
+					<div class="chaptertwo-1-2">坚果干果</div>
+					<div class="chaptertwo-1-2">蜂蜜</div>
+					<div class="chaptertwo-1-2">酒</div>
+					<div>&nbsp;</div>
+				</div>
+				<div class="chaptertwo-8">
+					<div class="chaptertwo-8-1"><span>酒茶冲饮</span></div>
+					<div class="chaptertwo-8-2">
+						<div>绿茶</div>
+						<div>毛尖</div>
+						<div>红茶</div>
+					</div>
+					<div class="chaptertwo-8-1"><span>肉类水产加工</span></div>
+					<div class="chaptertwo-8-2">
+						<div>香肠</div>
+						<div>腊制品</div>
+						<div>丸子制品</div>
+					</div>
+					<div class="chaptertwo-8-1"><span>蔬果加工</span></div>
+					<div class="chaptertwo-8-2">
+						<div>干香菇</div>
+						<div>干笋</div>
+						<div>百合干</div>
+					</div>
+					<div class="chaptertwo-8-1"><span>肉蛋奶</span></div>
+					<div class="chaptertwo-8-2">
+						<div>鸡蛋</div>
+						<div>鸭蛋</div>
+						<div>鹅蛋</div>
+					</div>
+				</div>
+				<div class="chaptertwo-9"><img src="images/29.jpg" alt=""></div>
+				<div class="chaptertwo-10">
+					<div class="chaptertwo-10-1"><img src="images/32.jpg" alt=""></div>
+					<div class="chaptertwo-10-2"><img src="images/28.jpg" alt=""></div>
+					<div class="chaptertwo-10-3"><img src="images/30.jpg" alt=""></div>
+				</div>
+				<div class="chaptertwo-11">
+					<div class="chaptertwo-11-1">
+						<div>【资讯】关于葡萄干的小科学</div>
+						<div>【资讯】六安瓜片的制茶技术</div>
+						<div>【资讯】杭电信工的办学特色</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="chaptertwo">
+			<div>
+				<div class="chaptertwo-1-1">
+					苗木花草
+				</div>
+				<div>
+					<div class="chaptertwo-1-2">桂花树</div>
+					<div class="chaptertwo-1-2">红豆杉</div>
+					<div class="chaptertwo-1-2">罗汉松</div>
+					<div class="chaptertwo-1-2">海棠</div>
+					<div class="chaptertwo-1-2">紫薇</div>
+					<div>&nbsp;</div>
+				</div>
+				<div>
+					<div class="chaptertwo-3"><img src="images/33.jpg" alt=""></div>
+					<div class="chaptertwo-12">
+						<div class="chaptertwo-12-1">
+							<div class="chaptertwo-12-title">
+								<div class="chaptertwo-12-1-1"><span>苗木</span></div>
+							</div>
+							<div class="chaptertwo-12-1-2">
+								<div>桂花树</div>
+								<div>红豆杉</div>
+								<div>罗汉松</div>
+								<div>国槐</div>
+								<div>红叶石楠</div>
+								<div>竹子</div>
+								<div>柳树</div>
+								<div>黄杨</div>
+								<div>白皮松</div>
+							</div>
+							<div class="chaptertwo-12-1-3">【喜讯】我院举办2017年电子商务竞赛院决赛<br>【喜讯】我院举办2017年电子商务竞赛院决赛</div>
+						</div>
+						<div class="chaptertwo-12-2"><img src="images/34.jpg" alt=""></div>
+					</div>
+					<div class="chaptertwo-12">
+						<div class="chaptertwo-12-2"><img src="images/35.jpg" alt="">
+						</div>
+						<div class="chaptertwo-12-1">
+							<div class="chaptertwo-12-title">
+								<div class="chaptertwo-12-1-1"><span>果树</span></div>
+							</div>
+							<div class="chaptertwo-12-1-2">
+								<div>桃树苗</div>
+								<div>葡萄苗</div>
+								<div>桔树苗</div>
+								<div>杨梅树苗</div>
+								<div>苹果树苗</div>
+								<div>草莓苗</div>
+								<div>蓝莓苗</div>
+								<div>李树苗</div>
+							</div>
+							<div class="chaptertwo-12-1-3">【喜讯】我院举办2017年电子商务竞赛院决赛<br>【喜讯】我院举办2017年电子商务竞赛院决赛</div>
+						</div>
+					</div>
+					<div class="chaptertwo-12">
+						<div class="chaptertwo-12-1">
+							<div class="chaptertwo-12-title">
+								<div class="chaptertwo-12-1-1"><span>花卉</span></div>
+							</div>
+							<div class="chaptertwo-12-1-2">
+								<div>菊花</div>
+								<div>海棠</div>
+								<div>茶花</div>
+								<div>玫瑰</div>
+								<div>月季</div>
+								<div>紫薇</div>
+								<div>杜鹃花</div>
+								<div>仙人掌</div>
+							</div>
+							<div class="chaptertwo-12-1-3">【喜讯】我院举办2017年电子商务竞赛院决赛<br>【喜讯】我院举办2017年电子商务竞赛院决赛</div>
+						</div>
+						<div class="chaptertwo-12-2"><img src="images/34.jpg" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="chapter4">
+			<div class="chaptertwo-s">
+				<div class="chaptertwo-1-1">农资农机</div>
+				<div>
+					<div class="chaptertwo-1-2">农药</div>
+					<div class="chaptertwo-1-2">肥料</div>
+					<div class="chaptertwo-1-2">饲料</div>
+					<div class="chaptertwo-1-2">农用机械</div>
+					<div>&nbsp;</div>
+				</div>
+				<div class="chaptertwo-13">
+					<div class="chaptertwo-13-1"><img src="images/37.jpg" alt=""></div>
+					<div class="chaptertwo-5-1-s">
+						<div class="chaptertwo-5-1-1-s">
+							<span>农资</span>
+						</div>
+						<div class="chaptertwo-5-1-2-s">
+							<span>农机</span>
+						</div>
+						<div class="chaptertwo-5-2-3-s">
+							<div>农药</div>
+							<div>肥料</div>
+							<div>笼养设备</div>
+							<div>温室大棚</div>
+						</div>
+						<div class="chaptertwo-5-2-3-s">
+							<div>农用机械</div>
+							<div>园林机械</div>
+							<div>农用动力车</div>
+						</div>
+						<div class="chaptertwo-4-2-s"><img src="images/20.jpg" alt=""><img src="images/21.jpg" alt=""></div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="chaptertwo-s">
+				<div class="chaptertwo-1-1">农资农机</div>
+				<div>
+					<div class="chaptertwo-1-2">农药</div>
+					<div class="chaptertwo-1-2">肥料</div>
+					<div class="chaptertwo-1-2">饲料</div>
+					<div class="chaptertwo-1-2">农用机械</div>
+					<div>&nbsp;</div>
+				</div>
+				<div class="chaptertwo-13">
+					<div class="chaptertwo-13-1"><img src="images/37.jpg" alt=""></div>
+					<div class="chaptertwo-5-1-s">
+						<div class="chaptertwo-5-1-1-ss">
+							<span>中药材</span>
+						</div>
+						<div class="chaptertwo-5-2-3-ss">
+							<div>人参</div>
+							<div>白及</div>
+							<div>白术</div>
+							<div>百合</div>
+							<div>当归</div>
+							<div>党参</div>
+							<div>甘草</div>
+							<div>三七</div>
+							<div>玉竹</div>
+							<div>莲子</div>
+							<div>杜仲</div>
+							<div>灵芝</div>
+						</div>
+						<div class="chaptertwo-4-2-s"><img src="images/20.jpg" alt=""><img src="images/21.jpg" alt=""></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="end">
+		<div class="in">
+			<div class="person">
+				<p class="person-title">16905214</p>
+				<p class="person-text">Description: The site modeled on China's benefit network, for learning reference, not for commercial purposes. Produced by students</p>
+			</div>
+			<div class="links">
+				<p>Links
+					<p>
+						<div href="">杭电官网</div>
+						<div href="">杭电信工官网</div>
+						<div href="">青山湖教务系统</div>
+						<div href="">教育部</div>
+						<div href="">省教育厅</div>
+			</div>
+			<div class="contact">
+				<p>158-5829-8995</p>
+				<div>
+					<div class="contact-icons">
+						<div class="contact-icon1"><img src="images/QQ.png" alt=""></div>
+						<div class="contact-icon2"><img src="images/weixin.png" alt=""></div>
+						<div class="contact-icon3"><img src="images/weibo.png" alt=""></div>
+						<div class="contact-icon4"><img src="images/zhifubao.png" alt=""></div>
+					</div>
+					<div class="contact-p">
+						This site has many shortcomings, I hope you guide me to improve
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+
+</html>

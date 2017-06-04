@@ -1,0 +1,87 @@
+.mydownlist{
+	float: left;
+}
+.mydownlist-title{
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 20px;
+}
+.mydownlist ul {
+	font: normal 12px Verdana;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.mydownlist ul li {
+	position: static; /* menu li items should have position set to static */
+}
+.mydownlist > ul {
+	border: 0px solid red ;
+	/*border-radius: 5px;*/
+	width: 200px; /* width of main menu */
+	height: 480px; /* height of main menu */
+	position: relative;
+	background-color: #F8F8F8;
+}
+
+.mydownlist-title  span :hover {
+	background-color: #DCDCDC;
+	color: #090;
+}
+.mydownlist > ul li a {
+	display: block;
+	overflow: auto;
+	padding: 10px 0;
+	position: relative;
+	text-decoration: none;
+	text-indent: 10px;
+	color: black;
+}
+.content, .mydownlist ul li > ul { /* Sub menus (Could be a DIV or UL wrapper) style */
+	background: white;
+	border: 1px solid gray;
+	border-radius: 0 8px 8px 0;
+	box-shadow: 2px 2px 2px gray;
+	display: none;
+	font-weight: normal;
+	width: 720px;
+	height: 500px; /* height of sub menu */
+	left: 100%;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	z-index: 1000;
+}
+.mydownlist-title-child{
+	width: 100%;
+	border: 1px solid #DCDCDC;
+}
+
+.content-title{
+	float:left;
+	width: 100px;
+	height: 120px;
+	color: green;
+	margin: 2px;
+}
+.content dd{
+	float:left;
+	width: 60px;
+	height: 20px;
+	border-left: 1px solid #DCDCDC;
+	font-size: 12px;
+	margin: 4px;
+	text-align: center;
+	padding-bottom: 2px;
+}
+.content-div{
+	height: 120px;
+	margin-top: 5px;
+}
+
