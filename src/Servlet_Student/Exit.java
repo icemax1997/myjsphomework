@@ -39,7 +39,7 @@ public class Exit extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		session.setAttribute("power",null);
-		response.sendRedirect("../login.jsp");
+		response.sendRedirect("../views/main/login.jsp");
 	}
 
 	/**

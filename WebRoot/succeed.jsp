@@ -23,7 +23,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
      <%
      	if(user.equals("admin")&&password.equals("admin")){
      		out.print("welcome You!");
-     		response.sendRedirect("index.jsp?table=shuiguoshucai"); 
+     		response.sendRedirect("../views/main/index.jsp?table=shuiguoshucai"); 
      	} else{
      		out.print("´íÎó");
      	}

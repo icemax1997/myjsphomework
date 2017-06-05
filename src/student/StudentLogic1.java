@@ -100,7 +100,18 @@ public class StudentLogic1 {
 		 }
 		 return flag;
 	 }
-	
+	 public int editUser(String username,  String password) throws SQLException{
+		 int flag=0;
+		 String sqlTxt="update users set password='"+password+"' where username="+username;
+		 DbManage1 db=new DbManage1();
+		 try{
+			 flag=db.excuteSql(sqlTxt);
+		 }
+		 catch(SQLException ex){
+			 throw ex;
+		 }
+		 return flag;
+	 }
 	 public int PowerChange(String table, String[] ids) throws SQLException{
 		 int flag=0;
 //		 UPDATE users set power=1 where id=1 or id=2 or id=3

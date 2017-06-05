@@ -59,9 +59,9 @@ public class Register extends HttpServlet {
 			ex.printStackTrace();
 		}
 		if(flag!=0)
-			response.sendRedirect("../login.jsp");
+			response.sendRedirect("../views/main/login.jsp");
 		else
-			response.sendRedirect("../error.html");
+			response.sendRedirect("../views/main/error.html");
 	}
 
 	/**

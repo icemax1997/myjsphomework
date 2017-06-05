@@ -75,9 +75,9 @@ public class EditMark extends HttpServlet {
 			ex.printStackTrace();
 		}
 		if(flag!=0&&flag2!=0)
-			response.sendRedirect("../mark.jsp?table="+table);
+			response.sendRedirect("../views/main/mark.jsp?table="+table);
 		else
-			response.sendRedirect("../error.html");
+			response.sendRedirect("../views/main/error.html");
 	}
 
 	/**

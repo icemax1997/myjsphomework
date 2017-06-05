@@ -10,7 +10,7 @@ version="3.0">
     <servlet-class>Servlet_Student.DeleteStudentInfo</servlet-class>
   </servlet>
       <welcome-file-list>
-        <welcome-file>welcome_index.html</welcome-file>
+        <welcome-file>/views/main/login.jsp</welcome-file>
     </welcome-file-list>
   <servlet>
     <description>This is the description of my J2EE component</description>
@@ -75,12 +75,6 @@ version="3.0">
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>demo</servlet-name>
-    <servlet-class>Servlet_Student.demo</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>Userpowerchange</servlet-name>
     <servlet-class>Servlet_Student.Userpowerchange</servlet-class>
   </servlet>
@@ -93,32 +87,20 @@ version="3.0">
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>EditUser</servlet-name>
-    <servlet-class>Servlet_Student.EditUser</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>DownLoadServlet</servlet-name>
-    <servlet-class>Servlet.DownLoadServlet</servlet-class>
+    <servlet-class>Servlet_Updown.DownLoadServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ListFileServlet</servlet-name>
-    <servlet-class>Servlet.ListFileServlet</servlet-class>
+    <servlet-class>Servlet_Updown.ListFileServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UploadHandleServlet</servlet-name>
-    <servlet-class>Servlet.UploadHandleServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>MatchingSQL2</servlet-name>
-    <servlet-class>Servlet_Student.MatchingSQL2</servlet-class>
+    <servlet-class>Servlet_Updown.UploadHandleServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
@@ -132,6 +114,14 @@ version="3.0">
     <servlet-name>EditIndex</servlet-name>
     <servlet-class>Servlet_index.EditIndex</servlet-class>
   </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditUsers</servlet-name>
+    <servlet-class>Servlet_index.EditUsers</servlet-class>
+  </servlet>
+
+
 
 
 
@@ -197,20 +187,12 @@ version="3.0">
     <url-pattern>/servlet/Register</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-    <servlet-name>demo</servlet-name>
-    <url-pattern>/servlet/demo</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
     <servlet-name>Userpowerchange</servlet-name>
     <url-pattern>/servlet/Userpowerchange</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>Exit</servlet-name>
         <url-pattern>/servlet/Exit</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>EditUser</servlet-name>
-    <url-pattern>/servlet/EditUser</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>DownLoadServlet</servlet-name>
@@ -225,16 +207,16 @@ version="3.0">
     <url-pattern>/servlet/UploadHandleServlet</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-    <servlet-name>MatchingSQL2</servlet-name>
-    <url-pattern>/servlet/MatchingSQL2</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
     <servlet-name>helloBar</servlet-name>
     <url-pattern>/bar.do</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>EditIndex</servlet-name>
     <url-pattern>/servlet/EditIndex</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditUsers</servlet-name>
+    <url-pattern>/servlet/EditUsers</url-pattern>
   </servlet-mapping>
   
 

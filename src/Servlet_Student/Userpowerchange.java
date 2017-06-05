@@ -63,9 +63,9 @@ public class Userpowerchange extends HttpServlet {
 			ex.printStackTrace();
 		}
 		if(flag!=0&&flag2!=0)
-			response.sendRedirect("../users.jsp?table="+table);
+			response.sendRedirect("../views/main/users.jsp?table="+table);
 		else
-			response.sendRedirect("../error.html");
+			response.sendRedirect("../views/main/error.html");
 	}
 
 	/**

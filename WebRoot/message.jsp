@@ -72,7 +72,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    <div class="downheader"><div>:） 成功!</div></div>
      ${message}
      <br><br>
-     <button onClick="window.location.href='../index.jsp'" class="mya">返回主页</button> 
+     <button onClick="window.location.href='../views/main/index.jsp'" class="mya">返回主页</button> 
   </center>
  
      </body>

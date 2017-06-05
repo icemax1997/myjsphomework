@@ -72,9 +72,9 @@ public class AddStudentInfo extends HttpServlet {
 		}
 		if(flag!=0)
 			
-			response.sendRedirect("../show_studentinfo.jsp?table="+table);
+			response.sendRedirect("../views/main/show_studentinfo.jsp?table="+table);
 		else
-			response.sendRedirect("../error.html");
+			response.sendRedirect("../views/main/error.html");
 	}
 
 	/**

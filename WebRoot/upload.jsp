@@ -75,7 +75,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       </div>
    <center><input type="submit" value="提交" class="mya"></center>
   </form>
-   <center><button onClick="window.location.href='index.jsp'" class="mya">返回主页</button> </center>
+   <center><button onClick="window.location.href='views/main/index.jsp'" class="mya">返回主页</button> </center>
 
   </body>
 </html>

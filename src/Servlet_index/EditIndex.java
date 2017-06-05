@@ -52,6 +52,7 @@ public class EditIndex extends HttpServlet {
 		HttpSession session=request.getSession();//返回与当前request相关联的session，如果没有则在服务器端创建一个;
 	    String username =(String)session.getAttribute("loginusername");
 		String id=request.getParameter("id");
+		String power = request.getParameter("power");
 		String name=request.getParameter("name");
 		name=this.convertCharSet(name);
 		String num=request.getParameter("num");
@@ -68,9 +69,9 @@ public class EditIndex extends HttpServlet {
 			ex.printStackTrace();
 		}
 		if(flag!=0)
-			response.sendRedirect("../index.jsp?table="+table);
+			response.sendRedirect("../views/main/index.jsp?table="+table+"&power="+power);
 		else
-			response.sendRedirect("../error.html");
+			response.sendRedirect("../views/main/error.html");
 	}
 
 	/**

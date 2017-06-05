@@ -48,7 +48,7 @@ public class MatchingSQL extends HttpServlet {
 		return newString;
 	}
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String table=request.getParameter("table");
+		String table="shuiguoshucai";
 		String power=request.getParameter("power");
 		String username=request.getParameter("username");
 		String password=request.getParameter("password");
@@ -64,10 +64,10 @@ public class MatchingSQL extends HttpServlet {
 			ex.printStackTrace();
 		}
 		if(flag!=0)
-			response.sendRedirect("../index.jsp?power="+power);
+			response.sendRedirect("../views/main/index.jsp?power="+power+"&table="+table);
 			
 		else
-			response.sendRedirect("../error.html");
+			response.sendRedirect("../views/main/error.html");
 	}
 
 	/**

@@ -65,9 +65,9 @@ public class QueryStudentInfo extends HttpServlet {
 			ex.printStackTrace();
 		}
 		if(flag!=0)
-			response.sendRedirect("../Myjsp.jsp");
+			response.sendRedirect("../views/main/index.jsp");
 		else
-			response.sendRedirect("../error.html");
+			response.sendRedirect("../views/main/error.html");
 	}
 
 	/**

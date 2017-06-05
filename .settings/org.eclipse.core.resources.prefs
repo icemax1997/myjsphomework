@@ -1,2 +1,3 @@
 eclipse.preferences.version=1
-encoding//WebRoot/check.jsp=UTF-8
+encoding//WebRoot/views/main/check.jsp=UTF-8
+encoding//WebRoot/views/main/register.jsp=UTF-8

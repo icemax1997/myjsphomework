@@ -70,9 +70,9 @@ public class QueryMark extends HttpServlet {
 			ex.printStackTrace();
 		}
 		if(flag!=0)
-			response.sendRedirect("../queryresult.jsp");
+			response.sendRedirect("../views/query/queryresult.jsp");
 		else
-			response.sendRedirect("../error.html");
+			response.sendRedirect("../views/main/error.html");
 	}
 
 	/**
