@@ -44,6 +44,8 @@ public class UploadHandleServlet extends HttpServlet {
 	 */
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		String power = request.getParameter("power");
+		System.out.println("power="+power);
 		//得到上传文件的保存目录，将上传的文件存放于WEB-INF目录下，不允许外界直接访问，保证上传文件的安全
 		String savePath = this.getServletContext().getRealPath("WEB-INF/upload");
 		File file = new File(savePath);
@@ -117,7 +119,7 @@ public class UploadHandleServlet extends HttpServlet {
 
 		}
 		request.setAttribute("message",message);
-		request.getRequestDispatcher("../message.jsp").forward(request, response);
+		request.getRequestDispatcher("../message.jsp?power="+power).forward(request, response);
 		
 	}
 

@@ -86,8 +86,8 @@
                     <a href="" class="nav-list-navigation">用户管理</a>
                     <ul>
                         <li><a href="views/main/users.jsp?table=users&power=${param.power}">权限设置</a></li>
-                        <li><a href="servlet/ListFileServlet">下载文件</a></li>
-                        <li><a href="upload.jsp">上传文件</a></li>
+                        <li><a href="servlet/ListFileServlet?power=${param.power}">下载文件</a></li>
+                        <li><a href="upload.jsp?power=${param.power}">上传文件</a></li>
                     </ul>
                 </li>
                 </ul>

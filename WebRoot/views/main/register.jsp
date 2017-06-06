@@ -51,7 +51,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		 ajax.send(null);   
 		   }   
 		   function CheckName()    {   
-		     getMyHTML("check.jsp?userName="+a.username.value, "passport1")
+		     getMyHTML("views/main/check.jsp?userName="+a.username.value, "passport1")
 		   }   
 		   //这个函数的作用是当用户的焦点从其他地方回到group_name这个输入框时再给属性赋回原内容   
 		 function sl(tx)    {   
@@ -68,7 +68,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <div class="alert">
           	请填写表单
         </div>
-
         <div id="content">
             <div class="doinput">
                 <center>
@@ -76,7 +75,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                             maxlength="50" onBlur="javaScript:CheckName();"  
                             onFocus="return sl('passport1');" class="myuser" placeholder="新账号" />  
                         <div id="passport1" style="color: red"></div>  
-
 				</center>
             </div>
             <div id="content">

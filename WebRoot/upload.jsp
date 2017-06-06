@@ -70,12 +70,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   <div class="downheader"><div>请选择你要上传的文件</div></div>
 <div class="downbody">
-     <form action="${pageContext.request.contextPath}/servlet/UploadHandleServlet" enctype="multipart/form-data" method="post">
+     <form action="${pageContext.request.contextPath}/servlet/UploadHandleServlet?power=${param.power}" enctype="multipart/form-data" method="post">
    上传文件：<input type="file" name="file2" class="mya"><br/>
       </div>
    <center><input type="submit" value="提交" class="mya"></center>
   </form>
-   <center><button onClick="window.location.href='views/main/index.jsp'" class="mya">返回主页</button> </center>
+   <center><button onClick="window.location.href='views/main/index.jsp?&power=${param.power}'" class="mya">返回主页</button> </center>
 
   </body>
 </html>

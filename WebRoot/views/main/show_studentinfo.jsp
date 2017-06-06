@@ -13,7 +13,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    	<link href="mycss/bar.css" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="sweetalert.css">
 	<link rel="stylesheet" type="text/css" href="mycss/query.css">
-	<script type="text/javascript" src="jquery.js"></script>
+	<script src="js/jquery.js"></script>
  	<script  type="text/javascript">   	
      $(function () {
             (function ($) {
@@ -23,31 +23,32 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     if (r != null) return unescape(r[2]); return null;
                 }
             })(jQuery);
+
              var xx = $.getUrlParam('power');
             if(xx=="2"){
             		$("#yourpower").hide();    		
             }else if(xx=="1"){
             	$("#yourpower").show();
-            }       
+            } 
         });
-	$(document).ready(function(){
-	  $("#flip").click(function(){
-	    if ($("#panel").css("display")=="none") {
-	      $("#panel").slideDown("slow");
-	    }else {
-	        $("#panel").slideUp("slow");
-	    }
-	
-	  });
-	  $("#flip2").click(function(){
-	    if ($("#panel2").css("display")=="none") {
-	      $("#panel2").slideDown("slow");
-	    }else {
-	        $("#panel2").slideUp("slow");
-	    }
-	
-	  });
-	});
+		$(document).ready(function(){
+		  $("#flip").click(function(){
+		    if ($("#panel").css("display")=="none") {
+		      $("#panel").slideDown("slow");
+		    }else {
+		        $("#panel").slideUp("slow");
+		    }
+		
+		  });
+		  $("#flip2").click(function(){
+		    if ($("#panel2").css("display")=="none") {
+		      $("#panel2").slideDown("slow");
+		    }else {
+		        $("#panel2").slideUp("slow");
+		    }
+		
+		  });
+		});
 	</script>
   </head>
   <body>
@@ -111,7 +112,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <div class="listcontent">
    <div class="bar">
    <div id="panel">
-	  <FORM action=servlet/AddStudentInfo Method="post" class="queryloginform">
+	  <FORM action=servlet/AddStudentInfo?power=${param.power} Method="post" class="queryloginform">
 	  <div id="content">
 	  <div><input type="text" name="sname" class="queryinput" placeholder="请输入产品名"></div>
 	  <div><input type="text" name="sprice" placeholder="请输入价格"></div>
@@ -122,7 +123,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   		</form>  
    </div>
       <div id="panel2">
-	  <FORM action=seniorqueryresult.jsp Method="post" class="queryloginform">
+	  <FORM action=views/query/seniorqueryresult.jsp?power=${param.power} Method="post" class="queryloginform">
 	  <div id="content">
 	  <div><input type="text" name="sname" class="queryinput" placeholder="请输入产品名"></div>
 	  <div><input type="text" name="sprice" placeholder="请输入价格"></div>
@@ -133,7 +134,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   		</form>  
    </div>
 			        <div class="bar-left">
-			            <form name="form1" method="post" action="queryresult.jsp">
+			            <form name="form1" method="post" action="views/query/queryresult.jsp">
 			                <div>
 			                    <input type="text" placeholder="输入信息" name="sname" class="barinput">
 			                    <input type="submit" name="Submit" value="模糊搜索" class="barrsearch"> 

@@ -69,6 +69,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
+  
  <div class="downheader"><div>请选择你需要下载的文件</div></div>
 <div class="downbody">
 		<c:forEach var="me" items="${fileNameMap}">
@@ -79,6 +80,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <br/>
     	</c:forEach> 
     </div>
-    <center><button onClick="window.location.href='../views/main/index.jsp'" class="mya">返回主页</button> </center>
+    
+    <center><button onClick="window.location.href='../views/main/index.jsp?power=${param.power}'" class="mya">返回主页</button> </center>
   </body>
 </html>

@@ -32,7 +32,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
             	$("#yourpower").show();
             } 
         });
-		$(document).ready(function(){
+        $("document").ready(function(){
 		  $("#flip").click(function(){
 		    if ($("#panel3").css("display")=="none") {
 		      $("#panel3").slideDown("slow");

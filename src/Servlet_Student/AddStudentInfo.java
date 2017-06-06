@@ -54,7 +54,7 @@ public class AddStudentInfo extends HttpServlet {
 		sprice=this.convertCharSet(sprice);
 		String snumber=request.getParameter("snumber");
 		snumber=this.convertCharSet(snumber);
-		
+		String power=request.getParameter("power");
 		StudentLogic1 stuLogic=new StudentLogic1();
 		String sqlTxt="insert into "+table+
 		"(sname,sprice,snumber) values("
@@ -72,7 +72,7 @@ public class AddStudentInfo extends HttpServlet {
 		}
 		if(flag!=0)
 			
-			response.sendRedirect("../views/main/show_studentinfo.jsp?table="+table);
+			response.sendRedirect("../views/main/show_studentinfo.jsp?table="+table+"&power="+power);
 		else
 			response.sendRedirect("../views/main/error.html");
 	}

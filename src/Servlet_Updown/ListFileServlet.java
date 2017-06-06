@@ -49,7 +49,7 @@ public class ListFileServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		//获取上传文件的目录
-		
+		String power =request.getParameter("power");
 		String uploadFilePath = this.getServletContext().getRealPath("/WEB-INF/upload");
 		
 		//存储要下载的文件名
@@ -58,8 +58,8 @@ public class ListFileServlet extends HttpServlet {
 		listfile(new File(uploadFilePath),fileNameMap);//File既可以代表一个文件也可以代表一个目录
 		//将Map集合发送到listfile.jsp页面进行显示
 		request.setAttribute("fileNameMap", fileNameMap);
-		
-		request.getRequestDispatcher("../listfile.jsp").forward(request, response);
+		System.out.println("power="+power);
+		request.getRequestDispatcher("../listfile.jsp?power="+power).forward(request, response);
 	
 	}
 	public void listfile(File file,Map<String,String> map){
